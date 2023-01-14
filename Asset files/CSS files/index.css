@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    scroll-behavior: cover;
+}
+
+.sectionClass {
+    width: 100%;
+    height: 230vh;
+    
+
+}
+.sectionClass img{
+    
+    float: right;
+    margin-right: 15%;
+    margin-top: 2%;
+    
+}
+
+.div1 {
+    width: 55%;
+    height: 200vh;   
+    margin: 0 auto;
+    font-size: 25px;   
+}
+
+
