@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgiter</title>
+</head>
+
+<body>
+    <form action="get" method="get">
+        <h1>Travel reservation form</h1>
+        <strong>* dnotes mandatory</strong><br><br>
+        <b><label for="FullName"> Full name*:</label><br></b>
+        <input type="text" placeholder="FisrtName LastName"><br>
+        <b><label for="email"> Email address*:</label><br></b>
+        <input type="email" placeholder="Email_Address" name="email" id="email">
+        <b>
+            <p>Select Tour Package*:</p>
+        </b>
+        <select name="tourPackage" id="tourPackage">
+            <option value="Premium Package">Premium Package</option>
+            <option value="Medium Package">Medium Package</option>
+            <option value="Standart Package">Standart Package</option>
+        </select><br>
+        <b><label for="ArrivalDate"> Arrival date*:</label></b><br>
+        <input type="date" placeholder="md/dd/yyyy" name="ArrivalDate" id="ArrivalDate"><br>
+        <b><label for="NumberofPersons">Number of Persons*:</label></b><br>
+        <input type="number" placeholder="Number of Persons" id="NumberofPersons">
+        <b>
+            <p>What would you wnat to avail?*</p>
+        </b>
+        <b><input type="checkbox" name="Boarding">Boarding</b><br>
+        <b><input type="checkbox" name="Fooding" id="Fooding">Fooding</b><br>
+        <b><input type="checkbox" name="Sightseeing" id="">Sight seeing</b><br>
+        <b><label for="DiscountCuponCode">Discount Cupon Code:</label></b><br>
+        <input type="text" placeholder="UNKNOWN_TYPE" name="" id="DiscountCuponCode"><br>
+        <b>
+            <p>Terms and Condition*</p>
+        </b>
+        <input type="radio" name="Agreement">I Agree
+        <input type="radio" name="Agreement" id="">I Disagree <br>
+        <input type="submit" value="Complete reservation" name="" id=""> 
+    </form>
+
+
+</body>
+
+</html>
